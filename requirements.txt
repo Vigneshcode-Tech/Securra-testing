@@ -1,0 +1,11 @@
+fastapi
+pandas
+pymongo
+uvicorn
+googletrans
+deep_translator
+jinja2
+python-multipart
+openpyxl
+
+ 

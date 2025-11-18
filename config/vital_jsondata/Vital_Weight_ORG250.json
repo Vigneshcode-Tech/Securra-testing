@@ -1,0 +1,77 @@
+{
+   
+    "meta" : {
+        "orgCode" : "SECORG_250",
+        "facCode" : "",
+        "lang" : "en",
+        "serialNo" : 35
+    },
+    "level" : "L2L3",
+    "seqno" : 10,
+    "ctgName" : "Person",
+    "ctgDispName" : "Person",
+    "ctgLevel" : "L1",
+    "ctgSeqno" : 10,
+    "ctgCode" : "SCL110",
+    "ctgNameKey" : "Person",
+    "dpName" : "Weight",
+    "dpDispName" : "Weight",
+    "dpLevel" : "L2",
+    "dpSeqno" : 10,
+    "dpCode" : "SCL110L235",
+    "dpNameKey" : "person.weight",
+    "responseSettings" : {
+
+    },
+    "valueSet" : "",
+    "audit" : {
+        "vId" : "1",
+        "crAt" : "2024-07-27T00:13:23.174529",
+        "crBy" : {
+            "id" : "001",
+            "name" : "SecurraDM",
+            "role" : "Datamodeler"
+        },
+        "updAt" : "2024-07-27T00:13:23.174529",
+        "updBy" : {
+            "id" : "002",
+            "name" : "SecurraDM",
+            "role" : "Datamodeler"
+        },
+        "srcId" : "Internal",
+        "src" : "Internal",
+        "isActive" : true
+    },
+    "referanceRange" : [
+        {
+            "type" : "diffrence",
+            "low" : 5,
+            "high" : 999999,
+            "criticality" : "Abnormal",
+            "severity" : "Abnormal",
+            "duration" : {
+                "value" : 7,
+                "unit" : {
+                    "code" : "SCL199L27L31",
+                    "name" : "Days",
+                    "display" : "Days"
+                }
+            }
+        },
+        {
+            "type" : "diffrence",
+            "low" : 2,
+            "high" : 999999,
+            "criticality" : "Abnormal",
+            "severity" : "Abnormal",
+            "duration" : {
+                "value" : 1,
+                "unit" : {
+                    "code" : "SCL199L27L31",
+                    "name" : "Days",
+                    "display" : "Days"
+                }
+            }
+        }
+    ]
+}

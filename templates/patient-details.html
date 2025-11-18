@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Patient Details</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-size: 13px;
+    }
+    button.btn.btn-primary.mt-2.back-btn {
+    background-color: grey;
+    border-color: grey;
+}
+    input#mobile-input {
+        font-size: 13px;
+    }
+    select#env-select {
+      font-size: 13px;
+    }
+    button.btn.btn-primary.mt-2 {
+    background-color: #17375e;
+    border-color: #17375e;
+    }
+    a.btn.btn-primary.mt-2{
+      background-color: #17375e;
+      border-color: #17375e;
+    }
+    .header {
+      background-color: #17375e;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+    }
+    .header img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    .form-section {
+      padding: 30px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      margin: 20px auto;
+      position: relative;
+    }
+    .form-label {
+      font-weight: 500;
+    }
+    .scrollable-table {
+      max-height: 250px;
+      overflow-y: auto;
+      overflow-x: auto;
+      border: 1px solid #dee2e6;
+      /* margin-bottom: 20px; */
+    }
+    .download-btn {
+      background-color: #17375e;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 15px;
+    }
+    .download-btn:disabled {
+      background-color: #6c757d;
+      cursor: not-allowed;
+    }
+    p.text-muted {
+      text-align: center;
+      margin-top: 5rem;
+    }
+    .col-md-9 {
+  position: relative;
+}
+
+.loader-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(2px);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+  color: #17375e;
+}
+
+label.form-label {
+    font-weight: 700;
+}
+  </style>
+
+  <script>
+    window.onload = function () {
+      const savedEnv = localStorage.getItem('environment');
+      const savedMobile = localStorage.getItem('mobile_number');
+
+      if (savedEnv) {
+        document.getElementById('env-select').value = savedEnv;
+        enableMobileField();
+      }
+
+      if (savedMobile) {
+        document.getElementById('mobile-input').value = savedMobile;
+      }
+
+      {% if careplans %}
+      enableDownloadButton();
+      {% endif %}
+    };
+
+    function saveFormData() {
+      const env = document.getElementById('env-select').value;
+      const mobile = document.getElementById('mobile-input').value;
+      localStorage.setItem('environment', env);
+      localStorage.setItem('mobile_number', mobile);
+    }
+
+    function enableMobileField() {
+      const env = document.getElementById('env-select').value;
+      const mobileInput = document.getElementById('mobile-input');
+      mobileInput.disabled = (env === "");
+      saveFormData();
+    }
+    function showLoader() {
+      document.getElementById('loader').style.display = 'flex';
+    }
+
+
+    function enableDownloadButton() {
+      const downloadBtn = document.getElementById('download-btn');
+      if (downloadBtn) {
+        downloadBtn.disabled = false;
+      }
+    }
+
+
+
+function hideLoader() {
+  document.getElementById('loader').style.display = 'none';
+}
+
+function downloadAndAlert(event) {
+  event.preventDefault();
+
+  fetch('/download-careplans')
+    .then(response => {
+      if (!response.ok) {
+        throw new Error('Download failed.');
+      }
+      return response.blob();
+    })
+    .then(blob => {
+      // Create a temporary link to download
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'careplans.xlsx'; // Adjust filename as needed
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      window.URL.revokeObjectURL(url);
+
+      // Show alert and refresh
+      alert('File downloaded successfully!');
+      window.location.href = "/";
+
+    })
+    .catch(error => {
+      console.error('Download error:', error);
+      alert('Failed to download file.');
+    });
+}
+
+function goBackToReports() {
+    window.location.href = '/#reportButtons';  // Redirect to index.html with anchor
+  }
+  </script>
+</head>
+<body>
+
+<div class="header">
+  <img src="{{ url_for('static', path='images/securra-logo.png') }}" alt="Logo">
+</div>
+
+<div class="container">
+  <div class="form-section">
+     <!-- Error message block -->
+     {% if error_message %}
+     <div class="alert alert-danger" role="alert">
+         {{ error_message }}
+     </div>
+     {% endif %}
+    <form method="post" action="/submit" onsubmit="showLoader()">
+      <div class="row">
+        <!-- Left Side -->
+        
+        <div class="col-md-3">
+          <div class="mb-3">
+            <label class="form-label">Select your Environment</label>
+            <select class="form-select" name="environment" id="env-select" onchange="enableMobileField()" required>
+              <option value="">Select Env</option>
+              <option value="development_env">Dev_Env</option>
+              <option value="qa_env">Qa_Env</option>
+              <option value="preprod_env">Preprod_Env</option>
+              <option value="preprodDemo_env">PreprodDemo_Env</option>
+              <option value="test_env">Test_Env</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Mobile Number</label>
+            <input type="tel" class="form-control" name="mobile_number" id="mobile-input" placeholder="Enter Mobile Number" disabled required>
+          </div>
+         <button onclick="goBackToReports()" class="btn btn-primary mt-2 back-btn"><i class="fas fa-arrow-left"></i>
+Back</button>
+          <button type="submit" class="btn btn-primary mt-2">Submit</button>
+          <!-- <a href="/" class="btn btn-primary mt-2">Back</a> -->
+          
+        </div>
+
+        <div id="loader" class="loader-overlay" style="display: none;">
+          <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+          </div>
+        </div>
+        
+
+        <!-- Right Side -->
+        <div class="col-md-9">
+          {% if careplans %}
+          <div class="mb-3">
+            <h5>Organization Details</h5>
+            <ul class="list-group mb-3">
+              <li class="list-group-item"><strong>Asserter ID:</strong> {{ asserterId }}</li>
+              <li class="list-group-item"><strong>Organization:</strong> {{ organizationName }}</li>
+              <li class="list-group-item"><strong>Facility:</strong> {{ facilityName }}</li>
+              <!-- <li class="list-group-item"><strong>Device_Data:</strong> {{ Device_Data }}</li> -->
+            </ul>
+          </div>
+
+          <h5>Device Data</h5>
+          <div class="scrollable-table">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>DeviceId</th>
+                  <th>DeviceName</th>
+                  <th>serialNumber</th>
+                 
+                  <!-- <th>Device_Data</th> -->
+                </tr>
+              </thead>
+              <tbody>
+                {% if Device_Data %}
+                  {% for Device in Device_Data %}
+                    <tr>
+                      <td>{{ Device.deviceId }}</td>
+                      <td>{{ Device.deviceName }}</td>
+                      <td>{{ Device.serialNumber }}</td>
+                    </tr>
+                  {% endfor %}
+                {% else %}
+                  <tr>
+                    <td colspan="3" class="text-center">No data available</td>
+                  </tr>
+                {% endif %}
+              </tbody>              
+            </table>
+          </div>
+
+          <h5>Care Plan Details</h5>
+          <div class="scrollable-table">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Care Plan Group</th>
+                  <th>Care Plan Name</th>
+                  <th>Care Plan ID</th>
+                  <th>Task-Status</th>
+                  <!-- <th>Device_Data</th> -->
+                </tr>
+              </thead>
+              <tbody>
+              {% for plan in careplans %}
+                <tr>
+                  <td>{{ plan.carePlanGroup }}</td>
+                  <td>{{ plan.carePlanName }}</td>
+                  <td>{{ plan.carePlanId }}</td>
+                  <td>{{ plan.taskStatus }}</td>
+                  <!-- <td>{{ Device_Data }}</td> -->
+                </tr>
+              {% endfor %}
+              </tbody>
+            </table>
+          </div>
+
+          <button id="download-btn" class="download-btn" disabled onclick="downloadAndAlert(event)">
+            Download User Details
+          </button>
+          {% else %}
+          <p class="text-muted">No care plan data available. Submit the form to load details.</p>
+          {% endif %}
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

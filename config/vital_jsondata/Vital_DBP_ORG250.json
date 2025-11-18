@@ -1,0 +1,79 @@
+{
+    "meta" : {
+        "orgCode" : "SECORG_250",
+        "facCode" : "",
+        "lang" : "en",
+        "serialNo" : 1423
+    },
+    "level" : "L2L3",
+    "seqno" : 20,
+    "ctgName" : "Lab Data",
+    "ctgDispName" : "Lab Data",
+    "ctgLevel" : "L1",
+    "ctgSeqno" : 20,
+    "ctgCode" : "SCL120",
+    "ctgNameKey" : "Lab Data",
+    "dpName" : "Diastolic Blood Pressure",
+    "dpDispName" : "Diastolic Blood Pressure",
+    "dpLevel" : "L2",
+    "dpSeqno" : 20,
+    "dpCode" : "SCL120L2232",
+    "dpNameKey" : "labdata.diastolicbloodpressure",
+    "dpType" : "Number",
+    "dpDispType" : "Number",
+    "responseSettings" : {
+        "rangeFrom" : 0,
+        "rangeTo" : 300
+    },
+    "valueSet" : "",
+    "referanceRange" : [
+        {
+            "low" : 50,
+            "high" : 100,
+            "criticality" : "Normal",
+            "severity" : "Normal"
+        },
+        {
+            "low" : 40,
+            "high" : 49,
+            "criticality" : "Abnormal",
+            "severity" : "Low"
+        },
+        {
+            "low" : 101,
+            "high" : 140,
+            "criticality" : "Abnormal",
+            "severity" : "High"
+        },
+        {
+            "low" : 0,
+            "high" : 39,
+            "criticality" : "Critical",
+            "severity" : "Low"
+        },
+        {
+            "low" : 141,
+            "high" : 9999,
+            "criticality" : "Critical",
+            "severity" : "High"
+        }
+    ],
+    "audit" : {
+        "vId" : "1",
+        "crAt" : "2025-03-12T17:04:45.266697",
+        "crBy" : {
+            "id" : "001",
+            "name" : "SecurraDM",
+            "role" : "Datamodeler"
+        },
+        "updAt" : "2025-03-12T17:04:45.266697",
+        "updBy" : {
+            "id" : "002",
+            "name" : "SecurraDM",
+            "role" : "Datamodeler"
+        },
+        "srcId" : "Internal",
+        "src" : "Internal",
+        "isActive" : true
+    }
+}

@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "orgCode": "SECORG_140",
+    "facCode": "",
+    "lang": "en",
+    "serialNo": 1667
+  },
+  "level": "L2L3",
+  "seqno": 30,
+  "ctgName": "Assessments",
+  "ctgDispName": "Assessments",
+  "ctgLevel": "L1",
+  "ctgSeqno": 30,
+  "ctgCode": "SCL130",
+  "ctgNameKey": "Assessments",
+  "dpName": "Stress Index",
+  "dpDispName": "Stress Index",
+  "dpLevel": "L2",
+  "dpSeqno": 30,
+  "dpCode": "SCL130L2941",
+  "dpNameKey": "assessments.stressindex",
+  "dpType": "Scale",
+  "dpDispType": "Scale",
+  "responseSettings": {},
+  "valueSet": "",
+  "audit": {
+    "vId": "0.327",
+    "crAt": "2025-07-31T14:03:13.322477",
+    "crBy": {
+      "id": "001",
+      "name": "SecurraDM",
+      "role": "Datamodeler"
+    },
+    "updAt": "2025-07-31T14:03:13.322477",
+    "updBy": {
+      "id": "002",
+      "name": "SecurraDM",
+      "role": "Datamodeler"
+    },
+    "srcId": "Internal",
+    "src": "Internal",
+    "isActive": true
+  },
+  "referanceRange": [
+    {
+      "low": 0,
+      "high": 29,
+      "criticality": "Abnormal",
+      "severity": "Low"
+    },
+    {
+      "low": 30,
+      "high": 59,
+      "criticality": "Moderate",
+      "severity": "Moderate"
+    },
+    {
+      "low": 60,
+      "high": 100,
+      "criticality": "Critical",
+      "severity": "High"
+    }
+  ]
+}

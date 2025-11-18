@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Insert Questionnaire</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .form-container {
+      background-color: white;
+      border-radius: 10px;
+      padding: 30px;
+      margin-top: 50px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .response-box {
+      background-color: #f1f1f1;
+      border-radius: 10px;
+      padding: 20px;
+      min-height: 100px;
+      font-size: 13px;
+    }
+
+    .header {
+      background-color: #17375e;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+    }
+
+    .header img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .col-md-5.ms-4.text-response {
+      margin-top: 3rem;
+    }
+
+    textarea {
+      width: 100%;
+      padding: 10px;
+      font-size: 16px;
+      resize: vertical;
+      margin-bottom: 2px;
+      height: 100px;
+      font-size: 14px;
+    }
+
+    select#env {
+      font-size: 14px;
+    }
+
+    input#orgcode {
+      font-size: 13px;
+    }
+
+    /* .textarea-container {
+      max-height: 250px;
+      overflow-y: auto;
+      padding-right: 5px;
+    } */
+    .d-flex.justify-content-between {
+      margin-top: 1rem;
+    }
+
+    button.btn.btn-primary {
+      background-color: #17375e;
+      border-color: #17375e;
+    }
+
+    button.btn.btn-secondary.back-fix {
+      margin-left: 3px;
+    }
+
+    label.form-label {
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .form-label {
+      margin-bottom: 2px !important;
+    }
+
+    .loader-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.7);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    .spinner-border {
+      width: 3rem;
+      height: 3rem;
+      color: #17375e;
+    }
+
+    .form-section {
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <img src="{{ url_for('static', path='images/securra-logo.png') }}" alt="Logo">
+  </div>
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-6 form-container">
+        <form id="questionnaireForm">
+          <div class="mb-3">
+            <label class="form-label">Environment</label>
+            <select id="env" class="form-select" required>
+              <option value="">Select Env</option>
+              <option value="development_env">Dev_Env</option>
+              <option value="qa_env">Qa_Env</option>
+              <option value="preprod_env">Preprod_Env</option>
+              <option value="demo_env">Demo</option>
+              <option value="preprodDemo_env">PreprodDemo_Env</option>
+              <option value="test_env">Test_Env</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">List of ID's</label>
+            <input type="text" id="orgcode" class="form-control" required>
+          </div>
+
+
+          <div class="textarea-container">
+            <label class="form-label">Org Details</label>
+            <textarea class="req-textarea" placeholder='{
+    "reference": "string",
+    "code": "string",
+    "type": "string",
+    "display": "string"
+  }'></textarea>
+            <label class="form-label">Fac Details</label>
+            <textarea class="req-textarea" placeholder='{
+    "reference": "string",
+    "code": "string",
+    "type": "string",
+    "display": "string"
+  }'></textarea>
+            <label class="form-label">Role Details</label>
+            <textarea class="req-textarea" placeholder='{
+    "reference": "string",
+    "display": "string",
+    "code": "string"
+  }'></textarea>
+          </div>
+
+          <div class="d-flex justify-content-between">
+            <!-- <button type="button" class="btn btn-secondary back-fix"><i class="fas fa-arrow-left"></i> Back</button> -->
+            <button onclick="goBackToReports()" class="btn btn-secondary back-fix"><i class="fas fa-arrow-left"></i>
+              Back</button>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+
+
+      <div class="col-md-5 ms-4 text-response">
+        <div class="form-section">
+          <h5 class="mb-3">Response Output</h5>
+          <div class="response-box" id="responseBox">
+            Submit the form to see response here...
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="loader" class="loader-overlay" style="display: none;">
+    <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <script>
+
+
+
+    document.getElementById('questionnaireForm').addEventListener('submit', async function (event) {
+      event.preventDefault();
+      console.log("Form submitted");
+
+      const loader = document.getElementById('loader');
+      const responseBox = document.getElementById('responseBox');
+      loader.style.display = 'flex'; // Show loader
+      responseBox.innerText = ''; // Clear previous response
+
+      const env = document.getElementById('env').value.trim();
+      const idRaw = document.getElementById('orgcode').value;
+      const ids = idRaw.split(',').map(id => id.trim()).filter(Boolean);
+
+      const textareas = document.querySelectorAll('.req-textarea');
+      const [orgText, facText, roleText] = Array.from(textareas).map(el => el?.value?.trim() || '');
+
+      let org, fac, role;
+
+      try {
+        org = orgText ? JSON.parse(orgText) : null;
+        fac = facText ? JSON.parse(facText) : null;
+        role = roleText ? JSON.parse(roleText) : null;
+      } catch (jsonError) {
+        console.log("jsonError==>", jsonError)
+        responseBox.innerText = 'Invalid JSON input in one of the textareas.';
+        loader.style.display = 'none';
+        return;
+      }
+
+      try {
+        const res = await fetch('/Insert_question', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ env, id: ids, org, fac, role })
+        });
+        console.log("res==>", res)
+        if (!res.ok) throw new Error(`Server responded with status ${res.status}`);
+
+        const data = await res.json();
+        responseBox.innerText = JSON.stringify(data, null, 2);
+      } catch (error) {
+        console.log("Fetch error:", error);
+        responseBox.innerText = `Error: ${error.message}`;
+      } finally {
+        loader.style.display = 'none'; // Hide loader in both success and error
+      }
+    });
+
+    function goBackToReports() {
+      window.location.href = '/#reportButtons';  // Redirect to index.html with anchor
+    }
+  </script>
+</body>
+
+</html>

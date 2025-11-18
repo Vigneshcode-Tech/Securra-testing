@@ -1,0 +1,35 @@
+{
+  "_id": "68e8b5b4d4fa2eec822264c2",
+  "meta": {
+    "serialNo": 47,
+    "orgCode": "SECORG_141",
+    "facCode": ""
+  },
+  "audit": {
+    "ver": "v1.1",
+    "crDt": "2025-10-10T07:28:50.808Z",
+    "crBy": {
+      "id": "Backend",
+      "name": "Backend",
+      "role": "Backend"
+    },
+    "upDt": "2025-10-10T07:28:50.808Z",
+    "upBy": {
+      "id": "Backend",
+      "name": "Backend",
+      "role": "Backend"
+    },
+    "isActive": true
+  },
+  "maxSeriesPeriod": 180,
+  "minAdvanceTime": 15,
+  "sendConfirmationsToCreator": true,
+  "sendMeetingInviteToParticipants": true,
+  "smsNotificationsEnabled": true,
+  "emailNotificationsEnabled": true,
+  "maxRescheduleCount": 3,
+  "allowWalkIns": true,
+  "isActive": true,
+  "createdAt": "2025-10-10T07:28:50.808Z",
+  "updatedAt": "2025-10-10T07:28:50.808Z"
+}

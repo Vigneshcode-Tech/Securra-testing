@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Securra</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+  <style>
+    body {
+      background-color: #f9f9f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1b3766;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+    }
+    .logo {
+      height: 40px;
+      width: auto;
+    }
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 7rem;
+      max-width: 1000px;
+    }
+    .info-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 30px;
+      width: 320px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      transition: 0.3s ease-in-out;
+      text-align: center;
+      cursor: pointer;
+    }
+    .info-card:hover {
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    }
+    .info-card i {
+      font-size: 40px;
+      color: #1b3766;
+      margin-bottom: 20px;
+    }
+    .info-card h5 {
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    .info-card p {
+      font-size: 14px;
+      color: #555;
+    }
+    .button-group {
+      display: none;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 4rem auto 2rem auto;
+      max-width: 1000px;
+      gap: 30px;
+    }
+    .custom-btn-card {
+      background-color: #fff;
+      border: 1px solid #dfdfdf;
+      color: #1b3766;
+      width: 280px;
+      padding: 20px;
+      text-align: center;
+      border-radius: 15px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+      transition: 0.3s ease;
+      cursor: pointer;
+    }
+    .custom-btn-card:hover {
+      background-color: #1b3766;
+      color: white;
+      transform: translateY(-4px);
+    }
+    .custom-btn-card i {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .custom-btn-card h6 {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+    .custom-btn-card p {
+      font-size: 13px;
+      color: #555;
+    }
+    .custom-btn-card:hover p {
+      color: #f0f0f0;
+    }
+    .back-btn-container {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .back-btn {
+      border: 1px solid #1b3766;
+      background-color: transparent;
+      color: white;
+      padding: 8px 18px;
+      background-color: #1b3766;
+      font-weight: 500;
+      transition: 0.3s ease;
+      border-radius: 5px;
+    }
+    .back-btn i {
+      margin-right: 6px;
+    }
+    .back-btn:hover {
+      background-color: #686868;
+      color: white;
+      border: 1px solid #686868;
+    }
+    .logo-container {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  background-color: #1a3765; /* Matches the dark blue header */
+}
+
+.logo-img {
+  height: 40px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.logo-text {
+  font-size: 32px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo-text strong {
+  font-weight: 500;
+  color: #cfd8dc; /* Optional: lighter shade for "Health" */
+}
+
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="{{ url_for('static', path='images/securra-logo.png') }}" alt="Logo" class="logo-img">
+  </header>
+
+<div class="container">
+  <!-- Main Cards -->
+  <div class="container card-container" id="mainCards">
+    <div class="info-card" onclick="redirectToDocument()">
+      <i class="fa-solid fa-file"></i>
+      <h5>Document Repository</h5>
+      <p>Securely store, organize, and access project-related documents all in one place.</p>
+    </div>
+
+    <div class="info-card" onclick="showReportingOptions()">
+      <i class="fas fa-chart-bar"></i>
+      <h5>Supporting Tools</h5>
+      <p>Access multiple modules to upload data, generate insights, view history, and download reports.</p>
+    </div>
+  </div>
+
+  <!-- Reporting Tool Buttons -->
+  <div class="container button-group" id="reportButtons">
+    <div class="custom-btn-card" onclick="redirectToValueSet()">
+      <i class="fas fa-upload"></i>
+      <h6>Value-Set, Roles, and Rules</h6>
+      <p>Truncate or update the value-set collection based on OrgCode and ENV. This requires passing the relevant Excel data.</p>
+    </div>
+    <div class="custom-btn-card" onclick="redirectToRiskscore()">
+      <i class="fa-solid fa-triangle-exclamation"></i>
+      <h6>Risk Score</h6>
+      <p>Fetch records from the risk-score-logs collection based on assester ID and ENV. Optionally, you can filter the results using a start date and end date if a date range is required.</p>
+    </div>
+    <div class="custom-btn-card" onclick="redirectTopatientupdate()">
+      <i class="fas fa-history"></i>
+      <h6>Permission and Roles Update</h6>
+      <p>Update the modelPermission field in existing documents within the permissions and roles collections, excluding those associated with the SuperAdmin role.</p>
+    </div>
+    <div class="custom-btn-card" onclick="redirectTopatient()">
+      <i class="fa-solid fa-hospital-user"></i>
+      <h6>Patient Details</h6>
+      <p>Fetch user details across all collections using a mobile number based on the given ENV. Additionally, export the fetched response as an Excel file.</p>
+    </div>
+    <div class="custom-btn-card" onclick="redirectToquestion()">
+      <i class="fas fa-chart-line"></i>
+      <h6>Questionnaire</h6>
+      <p>Create questions in the question collection based on the provided asserterIds, orgDetails, facDetails, and roleDetails.</p>
+    </div>
+    <!-- <div class="custom-btn-card">
+      <i class="fas fa-download"></i>
+      <h6>Download Report</h6>
+      <p>Export report in Excel format</p>
+    </div> -->
+  </div>
+
+  <div class="row">
+    <aside class="col-md-10"></aside>
+    <aside class="col-md-2">
+          <div class="back-btn-container" id="backButton" style="display: none;">
+    <button class="back-btn" onclick="goBackToMain()">
+      <i class="fas fa-arrow-left"></i> Back
+    </button>
+  </div>
+
+    </aside>
+  </div>
+  </div>
+  <!-- Back Button -->
+
+  <!-- JavaScript -->
+  <script>
+    function redirectToDocument() {
+    window.location.href = "https://platform-docrepo.securra.com/";
+      // alert("Coming Soon...")
+    }
+
+    function showReportingOptions() {
+      document.getElementById("mainCards").style.display = "none";
+      document.getElementById("reportButtons").style.display = "flex";
+      document.getElementById("backButton").style.display = "block";
+    }
+
+    function goBackToMain() {
+      document.getElementById("reportButtons").style.display = "none";
+      document.getElementById("mainCards").style.display = "flex";
+      document.getElementById("backButton").style.display = "none";
+    }
+
+    function redirectToValueSet() {
+      window.location.href = "/microservice";  
+    }
+
+    function redirectToRiskscore() {
+        window.location.href = "/riskscore";  
+        // alert("Coming Soon..");
+    }
+    function redirectTopatientupdate() {
+        window.location.href = "/update-PermissionRole";  
+        // alert("Coming Soon..");
+    }
+    function redirectTopatient() {
+        window.location.href = "/patient-details";  
+        // alert("Coming Soon..");
+    }
+    function redirectToquestion() {
+        window.location.href = "/quentionary";  
+        // alert("Coming Soon..");
+    }
+
+ window.addEventListener('DOMContentLoaded', function () {
+  const hash = window.location.hash;
+  if (hash === '#reportButtons') {
+    const section = document.querySelector(hash);
+    if (section) {
+      // Also reveal it
+      document.getElementById("mainCards").style.display = "none";
+      section.style.display = "flex";
+      document.getElementById("backButton").style.display = "block";
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+});
+
+
+  </script>
+
+</body>
+</html>

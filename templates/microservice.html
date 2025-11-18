@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValueSet,Roles & Rules</title>
+    <style>
+        body {
+            font-family: 'Nunito', sans-serif;
+            background-color: #f8f9fa;
+            
+        }
+        .container-fluid {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        aside.col-md-6.back-value {
+    margin-top: 20px;
+    /* margin-left: 5px; */
+}
+button.btn.btn-primary.mt-2 {
+    margin-left: 35px;
+    background-color: #1D3C6E;
+    border-color: #1D3C6E;
+}
+        .full-width {
+            width: 100%;
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ced4da;
+            font-size: 1rem;
+        }
+        button.back-btn {
+            margin-top: 2rem;
+            border-radius: 3px;
+            padding: 5px 10px 5px 10px;
+            background-color: grey;
+            margin-left: 23px;
+            color: white;
+            border-block-color: grey;
+        }
+        #test-connection {
+            background-color: #1D3C6E;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        #test-connection:hover {
+            background-color: #1D3C6E;
+        }
+        .row.service-top {
+            padding: 25px 24px 0px 27px;
+        }
+        aside {
+            margin-bottom: 20px;
+        }
+
+        input#file-upload {
+            padding: 100px 140px;
+        }
+        button#truncate-insert {
+            border: none;
+            padding: 10px;
+            background-color: #1D3C6E;
+            border-radius: 4px;
+            color: white;
+        }
+        button#execute {
+            margin-left: 5px;
+        }
+        button#update {
+            border: none;
+            background-color: #1D3C6E;
+            border-radius: 4px;
+            color: white;
+            padding: 8px 40px;
+            /* margin-top: 1rem; */
+        }
+
+        button#execute {
+            background-color: #1D3C6E;
+            color: white;
+            margin-top: 1rem;
+        }
+        aside.col-md-2.btn-top {
+            margin-top: 6rem;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #1D3C6E;
+            color: white;
+            padding: 10px 20px;
+            /* border-radius: 8px 8px 0 0; */
+            /* margin-bottom: 20px; */
+        }
+        header img {
+            height: 40px;
+        }
+        button#truncate-insert {
+            background-color: #e9ecef;
+            color: #6c757d;
+            pointer-events: none;
+            margin-right: 12px;
+        }
+        button#update {
+            background-color: #e9ecef;
+            color: #6c757d;
+            pointer-events: none;
+        }
+        button#execute {
+            background-color: #e9ecef;
+            color: #6c757d;
+            pointer-events: none;
+            border-color: #e9ecef;
+        }
+        input#file-upload {
+            background-color: #e9ecef;
+            color: #6c757d;
+            pointer-events: none;
+        }
+        select#language-select {
+            background-color: #e9ecef;
+            color: #6c757d;
+            pointer-events: none;
+        }
+        button#test-connection {
+            background-color: #e9ecef;
+            color: #6c757d;
+            pointer-events: none;
+        }
+        
+        .active {
+            background-color: #282829 !important;
+            color: #fff !important;
+        }
+        label#choose-value {
+            padding: 2px 7px 8px 11px;
+        }
+        div#language-select {
+            display: flex;
+        }
+        div#language-select {
+            padding: 11px 0px 3px 17px;
+        }
+        h5.lan-choose {
+            color: #1D3C6E;
+            font-size: 17px;
+        }
+        .inner-fun {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .inner-fun {
+            margin-top: 1rem;
+        }
+        div#language-select {
+            margin-top: 23px;
+        }
+        label {
+        font-size: 14px;
+        color: grey;
+    }
+    aside.col-md-6.exe-btn {
+        margin-top: 1rem;
+    }
+    .loader-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(90, 89, 89, 0.8);
+        display: none;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+    }
+    
+    .loader {
+        border: 7px solid #f3f3f3;
+        border-top: 7px solid #1D3C6E;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    #additional-input {
+            display: none;
+            
+        }
+.file-upload {
+    padding: 7px 7px 7px 7px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+}
+input#file {
+    color: #1D3C6E;
+}
+.form-group-flux {
+  display: flex;
+  align-items: center; /* Align items vertically centered */
+}
+
+input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+.custom-file-upload {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+    background-color: #1D3C6E;
+    color: white;
+}     
+#file:disabled + .custom-file-upload {
+    background-color: #e9ecef; 
+    color: #666; 
+    cursor: not-allowed; 
+}
+.custom-file-upload:hover {
+  background-color: #1D3C6E; /* Darker shade on hover */
+}
+.file-name {
+  font-size: 14px;
+  color: #333;
+  white-space: nowrap; /* Prevent line breaks */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Show ellipsis if text overflows */
+  max-width: 200px; /* Adjust based on the layout */
+}
+/* button#roles {
+    color: white;
+    margin-left: 12px;
+    border-radius: 6px;
+    background-color: #1D3C6E;
+    border-color: #1D3C6E;
+} */
+
+button#roles {
+    background-color: #e9ecef;
+    color: #6c757d;
+    pointer-events: none;
+    margin-right: 12px;
+    border: none;
+    border-radius: 4px;
+    border-radius: 4px;
+    margin-left: 12px;
+    padding: 0px 15px 0px 15px;
+}
+button#rules {
+    background-color: #e9ecef;
+    color: #6c757d;
+    pointer-events: none;
+    margin-right: 12px;
+    border: none;
+    border-radius: 4px;
+    border-radius: 4px;
+    /* margin-left: 12px; */
+    padding: 0px 15px 0px 15px;
+}
+
+button#scheduling-policies {
+    background-color: #e9ecef;
+    color: #6c757d;
+    pointer-events: none;
+    margin-right: 12px;
+    border: none;
+    border-radius: 4px;
+    border-radius: 4px;
+    /* margin-left: 12px; */
+    padding: 0px 15px 0px 15px;
+}
+.modal-footer {
+    border: none !important;
+}
+
+button#continue-btn {
+    background-color: #1D3C6E;
+    border-color: #1D3C6E;
+}
+
+
+select[multiple] option {
+    padding-left: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+select[multiple] option:checked {
+    background-image: url('data:image/svg+xml;charset=UTF-8,<svg width="20" height="20" xmlns="http://www.w3.org/2000/svg"><text y="15" font-size="16">✔</text></svg>');
+    background-size: 15px;
+}
+
+
+.custom-dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-btn {
+    width: 100%;
+    padding: 10px;
+    background: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: left;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    background: white;
+    border: 1px solid #ccc;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1000;
+}
+
+.dropdown-content label {
+    display: block;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.dropdown-content label:hover {
+    background: #f0f0f0;
+}
+
+/* Show dropdown on click */
+.custom-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+</style>
+</head>
+<body>
+    <header>
+        <img src="{{ url_for('static', path='images/securra-logo.png') }}" alt="Logo">
+    </header>
+    <div class="container-fluid">
+        <div class="row service-top">
+            <aside class="col-md-1">
+                
+            </aside>
+            <aside class="col-md-5">
+                <div class="form-group">
+                    <label for="Env">Select your Environment</label>
+                <select id="env-select" class="full-width">
+                    <option value="">Select Env</option>
+                    <option value="development_env">Development_Env</option>
+                    <option value="qa_env">Qa_Env</option>
+                    <option value="demo_env">Demo_Env</option>
+                    <option value="test_env">Test_Env</option>
+                    <option value="pre_prod">Pre_prod</option>
+                    <option value="demo_us_env">Demo US</option>
+                    <!-- Add environment options here -->
+                </select>
+                </div>
+                <div class="form-group">
+                    <label for="username">MongoDB Username</label>
+                    <input type="text"  id="username" class="full-width" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="password">MongoDB Password</label>
+                    <input type="password"  id="password" class="full-width" disabled>
+                </div>
+                <div class="form-group">
+                    <label for="dbname">Database Name</label>
+                    <input type="text"  id="dbname" class="full-width"  disabled>
+                </div>
+                <div class="form-group">
+                    <label for="collection-name">Collection Name</label>
+                    <input type="text"  id="collection-name" class="full-width">
+                </div>
+
+                <!-- <div class="form-group">
+                    <label for="collection-name">Collection Name</label>
+                    <select id="collection-name" class="full-width">
+                        <option value="">Select Collection Name</option>
+                        <option value="value-set">value-set</option>
+                        <option value="roles">Roles</option>
+                        <option value="rules">Rules</option>
+                    </select>
+                </div> -->
+                
+                <div class="form-group">
+                    <label for="server-url">Server URL</label>
+                    <input type="text"  id="server-url" class="full-width" disabled>
+                </div>
+                
+                <button id="test-connection" class="full-width" disabled>Test Connection</button>
+            </aside>
+            <aside class="col-md-5">
+                <div id="language-select" class="full-width">
+                    <h5 class="lan-choose">Select your language : </h5>
+                    <label id="choose-value"><input type="checkbox"  value="English" checked > English</label><br>
+                    <label id="choose-value" ><input type="checkbox" value="Hindi" disabled> Hindi</label><br>
+                    <label id="choose-value" ><input type="checkbox"  value="Arabic" disabled> Arabic</label><br>
+                    <!-- Add more language options here -->
+                </div>
+                <!-- <div class="form-group">
+                    <label for="Org_Code">Organization Code</label>
+                    <input type="text" id="Org_Code" required class="full-width" >
+                </div> -->
+
+                <label for="extra-field">Organization Code</label>
+                <div id="org-code-container" class="custom-dropdown">
+                    <button id="org-code" class="dropdown-btn">Select Your Org Code</button>
+                    <div id="org-dropdown" class="dropdown-content">
+                        <!-- Dynamic checkboxes will be added here -->
+                    </div>
+                </div>
+
+                <div id="additional-input" class="form-group">
+                    <label for="extra-field">Organization Code</label>
+                    <input type="text" id="Org_Code" required class="full-width" >
+                </div>
+                <div class="form-group">
+                    <label for="Fac_Code">Facility Code</label>
+                    <input type="text" id="Fac_Code" required class="full-width" >
+                </div>
+                <div class="file-upload">
+                    <form id="file-upload-form" onsubmit="handleSubmit(event)">
+                        <div class="form-group-flux">
+                            <!-- The label acts as the button to choose a file -->
+                            <input type="file" id="file" name="file" accept=".xlsx, .xls" onchange="handleFileChange(event)" disabled>
+                            <label for="file" class="custom-file-upload" id="file-label">
+                                Choose File
+                            </label>
+                            <span id="file-name" class="file-name">No file chosen</span> <!-- Display file name here -->
+                        </div>
+                    </form>
+                      
+                  </div>
+                  
+                  
+                
+
+                <div class="inner-fun">
+                    <button id="truncate-insert" class="align-right" disabled>Truncate and Insert</button><br>
+                    <button id="update" disabled>Update</button><br>
+                    <button id="roles" disabled>Roles</button>
+                    <button id="rules" disabled>Rules</button>
+                    <button id="scheduling-policies" disabled>scheduling-policies</button>
+                </div>
+                <div class="row">
+                    <aside class="col-md-6 back-value">
+                        <button class="btn btn-primary mt-2" onclick="goBackToReports()">
+                        <i class="fas fa-arrow-left"></i> Back </button>
+                        </aside>
+                    <aside class="col-md-6 exe-btn">
+                <button id="execute" class="full-width" disabled>Execute</button>
+                </aside>
+                </div>
+                <div class="loader-container">
+                    <div class="loader"></div>
+                </div>
+            </aside>
+            
+            <aside class="col-md-1">
+                
+            </aside>
+        </div>
+        <!-- <div class="row">
+            <aside class="col-md-10"></aside>
+            <aside class="col-md-2">
+                <button id="execute" class="full-width" disabled>Execute</button>
+            </aside>
+        </div> -->
+    </div>
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="envChangeModal" tabindex="-1" aria-labelledby="envChangeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="envChangeModalLabel">Environment Change</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Environment has been changed. Do you wish to <strong>Continue</strong> or <Strong>Cancel</Strong> ?
+                    <!-- <br>
+                    On Continue: Refresh all pre-loaded values and proceed with test connection.
+                    <br>
+                    On Cancel: Keep the pre-loaded values and proceed. -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-primary" id="continue-btn">Continue</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        let connectionEstablished = false;
+        let previousEnv = ''; // To store the previously selected environment
+
+        document.getElementById('env-select').addEventListener('change', function () {
+        const selectedEnv = this.value;
+        const testConnectionButton = document.getElementById('test-connection');
+        const envSelect = document.getElementById('env-select');
+
+        if (connectionEstablished && previousEnv) {
+            // Show the modal instead of directly changing the environment
+            const modal = new bootstrap.Modal(document.getElementById('envChangeModal'));
+            modal.show();
+
+            // Handle Continue button click
+            document.getElementById('continue-btn').addEventListener('click', function () {
+                modal.hide();
+
+                // Proceed with clearing old data and loading new environment details
+                clearEnvironmentDetails();
+                fetchEnvDetails(selectedEnv);
+
+                // Update the previous environment value
+                previousEnv = selectedEnv;
+            });
+
+            // Handle Cancel button click
+            document.querySelector('.btn-secondary[data-bs-dismiss="modal"]').addEventListener('click', function () {
+                // Restore the previous environment value in the dropdown
+                envSelect.value = previousEnv;
+            });
+        } else {
+            // If no previous connection established, proceed with loading the environment directly
+            fetchEnvDetails(selectedEnv);
+            previousEnv = selectedEnv; // Update the previous environment
+        }
+
+        // Enable the test connection button if an environment is selected
+        if (selectedEnv) {
+            testConnectionButton.disabled = false;
+            testConnectionButton.style.backgroundColor = '#1D3C6E';
+            testConnectionButton.style.color = '#fff';
+            testConnectionButton.style.pointerEvents = 'auto';
+        } else {
+            testConnectionButton.disabled = true;
+            testConnectionButton.style.backgroundColor = '#e9ecef';
+            testConnectionButton.style.color = '#6c757d';
+            testConnectionButton.style.pointerEvents = 'none';
+        }
+        });
+
+        function clearEnvironmentDetails() {
+        connectionEstablished = false; // Reset the connection state
+        document.getElementById('username').value = '';
+        document.getElementById('password').value = '';
+        document.getElementById('dbname').value = '';
+        document.getElementById('server-url').value = '';
+        document.getElementById('collection-name').value = '';
+        document.getElementById('org-code').value = '';
+        document.getElementById('Org_Code').value = '';
+        document.getElementById('Fac_Code').value = '';
+        document.getElementById('file').value = '';
+        document.getElementById('file-name').textContent = 'No file chosen';
+
+        // Disable buttons
+        disableButtons(['execute', 'truncate-insert', 'update', 'roles', 'rules','scheduling-policies']);
+        }
+
+        function disableButtons(buttonIds) {
+        buttonIds.forEach(id => {
+            const button = document.getElementById(id);
+            button.disabled = true;
+            button.style.backgroundColor = '#e9ecef';
+            button.style.color = '#6c757d';
+            button.style.pointerEvents = 'none';
+        });
+        }
+
+        function fetchEnvDetails(selectedEnv) {
+        const formData = new FormData();
+        formData.append('env', selectedEnv);
+
+        fetch('/db_connectiondetails', {
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+                if (data.status) {
+                    connectionEstablished = true;
+                    document.getElementById('username').value = data.mongodb_uname || '';
+                    document.getElementById('password').value = data.mongodb_Pwd || '';
+                    document.getElementById('dbname').value = data.database_name || '';
+                    document.getElementById('server-url').value = data.server_url || '';
+                    document.getElementById('collection-name').value = data.DataParameter_collection || '';
+                    
+                    // Populate the Organization Code dropdown
+                    populateDropdown('org-code', data.orgCodes || [], 'Select Your Org Code');
+                } else {
+                    alert(data.message);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+
+        function populateDropdown(dropdownId, options, defaultText) {
+        const dropdown = document.getElementById(dropdownId);
+        dropdown.innerHTML = '';
+        const defaultOption = document.createElement('option');
+        defaultOption.value = '';
+        defaultOption.textContent = defaultText;
+        dropdown.appendChild(defaultOption);
+
+        options.forEach(option => {
+            const opt = document.createElement('option');
+            opt.value = option;
+            opt.textContent = option;
+            dropdown.appendChild(opt);
+        });
+        }
+
+
+    
+ document.getElementById('org-code').addEventListener('change', function () {
+    const allCheckbox = document.querySelector('.org-checkbox[value="ALL"]'); // Select "ALL" checkbox
+    const additionalInput = document.getElementById('additional-input');
+
+    if (allCheckbox && allCheckbox.checked) {
+        additionalInput.style.display = 'block'; // Show input if "ALL" is checked
+    } else {
+        additionalInput.style.display = 'none'; // Hide input otherwise
+    }
+    
+});
+document.getElementById('test-connection').addEventListener('click', function () {
+    const formData = new FormData();
+    formData.append('env', document.getElementById('env-select').value);
+    formData.append('username', document.getElementById('username').value);
+    formData.append('password', document.getElementById('password').value);
+    formData.append('dbname', document.getElementById('dbname').value);
+    formData.append('collection_name', document.getElementById('collection-name').value);
+    formData.append('server_url', document.getElementById('server-url').value);
+
+    fetch('/connection_check', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Success:', data);
+        file.disabled = false;
+
+        if (data.success) {
+            alert(data.message);
+            const dropdown = document.getElementById('org-dropdown');
+            dropdown.innerHTML = ''; // Clear previous options
+
+            // Create "Select All" checkbox
+            const selectAllLabel = document.createElement('label');
+            selectAllLabel.innerHTML = `<input type="checkbox" id="select-all-orgs"> <strong>Select All</strong>`;
+            dropdown.appendChild(selectAllLabel);
+
+            let allOptionCheckbox = null; // Store reference to "ALL" checkbox
+
+            // Create organization code checkboxes
+            data.org_codes.forEach(code => {
+                const label = document.createElement('label');
+                label.innerHTML = `<input type="checkbox" value="${code}" class="org-checkbox"> ${code}`;
+                dropdown.appendChild(label);
+
+                // If this is the "ALL" option, store its reference
+                if (code.toUpperCase() === "ALL") {
+                    allOptionCheckbox = label.querySelector('input');
+                }
+            });
+
+            const selectAllCheckbox = document.getElementById('select-all-orgs');
+            const orgCheckboxes = document.querySelectorAll('.org-checkbox');
+
+            // "Select All" event listener (does NOT select "ALL" option)
+            selectAllCheckbox.addEventListener('change', function () {
+                orgCheckboxes.forEach(checkbox => {
+                    if (checkbox !== allOptionCheckbox) { // Skip "ALL" checkbox
+                        checkbox.checked = selectAllCheckbox.checked;
+                    }
+                });
+                updateSelectedCodes();
+            });
+
+            // Individual checkboxes event listener
+            orgCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function () {
+                    // If all org checkboxes (except "ALL") are selected, check "Select All"
+                    const checkboxesWithoutAll = [...orgCheckboxes].filter(cb => cb !== allOptionCheckbox);
+                    selectAllCheckbox.checked = checkboxesWithoutAll.every(cb => cb.checked);
+                    updateSelectedCodes();
+                });
+            });
+
+        } else {
+            alert('Cannot connect to the database. Please check the database inputs.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('Connection failed. Please try again.');
+    });
+});
+
+// Function to update selected organization codes (for debugging or other use)
+function updateSelectedCodes() {
+    const selectedOrgCodes = Array.from(document.querySelectorAll('.org-checkbox:checked'))
+        .map(checkbox => checkbox.value)
+        .filter(value => value.toUpperCase() !== "ON"); // Ensure "on" is removed
+
+    console.log("Selected Org Codes:", selectedOrgCodes);
+}
+
+
+
+
+
+    
+        function setAction(action) {
+            const executeButton = document.getElementById('execute');
+            executeButton.setAttribute('data-action', action);
+        }
+    
+        function enableExecuteButton() {
+            const executeButton = document.getElementById('execute');
+            executeButton.disabled = false;
+            executeButton.style.backgroundColor = '#1D3C6E';
+            executeButton.style.color = '#fff';
+            executeButton.style.pointerEvents = 'auto';
+        }
+    
+        function setActiveButton(buttonId) {
+            document.getElementById('truncate-insert').classList.remove('active');
+            document.getElementById('update').classList.remove('active');
+            document.getElementById(buttonId).classList.add('active');
+        }
+    
+        document.getElementById('truncate-insert').addEventListener('click', function() {
+            setAction('truncate_insert');
+            //enableExecuteButton();
+            setActiveButton('truncate-insert');
+        });
+    
+        document.getElementById('update').addEventListener('click', function() {
+            setAction('update');
+            //enableExecuteButton();
+            setActiveButton('update');
+        });
+
+        document.getElementById('roles').addEventListener('click', function() {
+            setAction('roles');
+            //enableExecuteButton();
+            setActiveButton('roles');
+        });
+    
+        document.getElementById('rules').addEventListener('click', function() {
+            setAction('rules');
+            //enableExecuteButton();
+            setActiveButton('rules');
+        });
+
+        document.getElementById('scheduling-policies').addEventListener('click', function() {
+            setAction('scheduling-policies');
+            //enableExecuteButton();
+            setActiveButton('scheduling-policies');
+        });
+
+
+        
+document.addEventListener('DOMContentLoaded', function () {
+    const orgDropdownBtn = document.getElementById('org-code');
+    const orgDropdown = document.getElementById('org-dropdown');
+    const additionalInput = document.getElementById('additional-input'); // Input field for "ALL" selection
+
+    // Toggle dropdown on click
+    orgDropdownBtn.addEventListener('click', function () {
+        orgDropdown.classList.toggle('show');
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function (event) {
+        if (!orgDropdownBtn.contains(event.target) && !orgDropdown.contains(event.target)) {
+            orgDropdown.classList.remove('show');
+        }
+    });
+
+    // Handle checkbox selection logic
+    orgDropdown.addEventListener('change', function (event) {
+        const checkboxes = orgDropdown.querySelectorAll('input[type="checkbox"]');
+        const selectedOrgCodes = [];
+
+        checkboxes.forEach(checkbox => {
+            if (checkbox.checked) {
+                selectedOrgCodes.push(checkbox.value);
+            }
+        });
+
+        // If "ALL" is selected, show additional input
+        if (selectedOrgCodes.includes("ALL")) {
+            additionalInput.style.display = 'block';
+        } else {
+            additionalInput.style.display = 'none';
+        }
+
+        // Update button text to show selected org codes
+        orgDropdownBtn.textContent = selectedOrgCodes.length > 0 ? selectedOrgCodes.join(", ") : "Select Your Org Code";
+    });
+
+    document.getElementById('execute').addEventListener('click', function () {
+        const action = this.getAttribute('data-action');
+        const selectedLanguages = Array.from(document.querySelectorAll('#language-select input[type=checkbox]:checked'))
+        .map(checkbox => checkbox.value.trim())  // Trim any extra spaces
+        .filter(value => value && value.toUpperCase() !== "ON"); // Remove "on"
+
+        const selectedOrgCodes = Array.from(document.querySelectorAll('#org-dropdown input[type="checkbox"]:checked'))
+        .map(checkbox => checkbox.value.trim()) 
+        .filter(value => value && value.toUpperCase() !== "ON"); // Remove "on"
+
+        console.log("Selected Org Codes:", selectedOrgCodes);
+        console.log("Selected Languages:", selectedLanguages);
+
+
+
+        const add_orgcode = document.getElementById('Org_Code').value;
+        const Fac_Code = document.getElementById('Fac_Code').value.trim();
+
+        if (selectedLanguages.length === 0) {
+            alert('Please select at least one language.');
+            return;
+        }
+
+        if (selectedOrgCodes.length === 0) {
+            alert('Please select at least one Organization Code.');
+            return;
+        }
+
+        console.log("Selected Org Codes:", selectedOrgCodes); // Debugging
+
+        const formData = new FormData();
+        formData.append('env', document.getElementById('env-select').value);
+        formData.append('username', document.getElementById('username').value);
+        formData.append('password', document.getElementById('password').value);
+        formData.append('dbname', document.getElementById('dbname').value);
+        formData.append('server_url', document.getElementById('server-url').value);
+        formData.append('collection_name', document.getElementById('collection-name').value);
+        formData.append('languages', selectedLanguages.join(',')); // Convert array to string
+        formData.append('Fac_Code', Fac_Code);
+
+        // Append multiple org codes properly
+        formData.append('Org_Code', JSON.stringify(selectedOrgCodes)); 
+        // console.log("rrrrrrrrrrrrrrrrrr",selectedOrgCodes)
+
+        formData.append('action', action);
+        formData.append('add_orgcode', add_orgcode);
+
+        // Handle the file upload
+        const fileInput = document.getElementById('file');
+        if (fileInput.files.length > 0) {
+            formData.append('file', fileInput.files[0]);  
+        }
+
+        const loaderContainer = document.querySelector('.loader-container');
+        loaderContainer.style.display = 'flex';
+
+        fetch('/execute_action', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            loaderContainer.style.display = 'none';
+            console.log('Success:', data);
+            if (data.success) {
+                alert(data.message);
+                window.location.href = '/';
+            } else {
+                alert(data.message);
+                document.getElementById('additional-input').style.display = 'block';
+            }
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+            alert('Please check the file.');
+        });
+    });
+});
+
+
+
+    
+document.getElementById('org-dropdown').addEventListener('change', function () {
+    const selectedOrgCodes = Array.from(document.querySelectorAll('.org-checkbox:checked'))
+        .map(cb => cb.value);
+
+    const collectionName = document.getElementById('collection-name').value; // Collection name input
+    const truncateInsertButton = document.getElementById('truncate-insert');
+    const updateButton = document.getElementById('update');
+    const roles = document.getElementById('roles');
+    const rules = document.getElementById('rules');
+    const schedulingpolicies = document.getElementById('scheduling-policies');
+
+    // Reset all buttons to disabled state initially
+    [truncateInsertButton, updateButton, roles, rules,schedulingpolicies].forEach(button => {
+        button.disabled = true;
+        button.style.backgroundColor = '#e9ecef';
+        button.style.color = '#6c757d';
+        button.style.pointerEvents = 'none';
+    });
+
+        if (selectedOrgCodes.length > 0) { // If at least one Org Code is selected
+        
+        // Check if 'ALL' is selected in orgCode
+        const isAllSelected = selectedOrgCodes.includes("ALL");
+        
+        if (collectionName === 'value-set') {
+            
+            // Disable truncate button if 'ALL' is selected
+            if (isAllSelected) {
+            truncateInsertButton.disabled = true;
+            truncateInsertButton.style.backgroundColor = '#e9ecef';
+            truncateInsertButton.style.color = '#6c757d';
+            truncateInsertButton.style.pointerEvents = 'none';
+
+            updateButton.disabled = false; // Enable update button
+            updateButton.style.backgroundColor = '#1D3C6E';
+            updateButton.style.color = '#fff';
+            updateButton.style.pointerEvents = 'auto';
+        } else {
+            // If any other orgCode is selected, enable truncate button and disable update button
+            truncateInsertButton.disabled = false;
+            truncateInsertButton.style.backgroundColor = '#1D3C6E';
+            truncateInsertButton.style.color = '#fff';
+            truncateInsertButton.style.pointerEvents = 'auto';
+
+            updateButton.disabled = true; // Disable update button
+            updateButton.style.backgroundColor = '#e9ecef';
+            updateButton.style.color = '#6c757d';
+            updateButton.style.pointerEvents = 'none';
+        }
+    }
+
+        if (collectionName === 'roles') {
+            roles.disabled = false;
+            roles.style.backgroundColor = '#1D3C6E';
+            roles.style.color = '#fff';
+            roles.style.pointerEvents = 'auto';
+        }
+
+        if (collectionName === 'rules') {
+            rules.disabled = false;
+            rules.style.backgroundColor = '#1D3C6E';
+            rules.style.color = '#fff';
+            rules.style.pointerEvents = 'auto';
+        }
+
+        if (collectionName === 'scheduling-policies') {
+            schedulingpolicies.disabled = false;
+            schedulingpolicies.style.backgroundColor = '#1D3C6E';
+            schedulingpolicies.style.color = '#fff';
+            schedulingpolicies.style.pointerEvents = 'auto';
+        }
+
+
+
+        // Enable all buttons if the collection name is new or unknown
+        if (!['value-set', 'roles', 'rules','scheduling-policies'].includes(collectionName)) {
+            [truncateInsertButton, updateButton, roles, rules,schedulingpolicies].forEach(button => {
+                button.disabled = false;
+                button.style.backgroundColor = '#1D3C6E';
+                button.style.color = '#fff';
+                button.style.pointerEvents = 'auto';
+            });
+        }
+    }
+
+    // Enable execute button based on your own logic
+    enableExecuteButton();
+});
+
+
+// if (selectedOrgCodes.length > 0) {  // If at least one Org Code is selected
+//         if (collectionName === 'value-set') {
+//             truncateInsertButton.disabled = false;
+//             truncateInsertButton.style.backgroundColor = '#1D3C6E';
+//             truncateInsertButton.style.color = '#fff';
+//             truncateInsertButton.style.pointerEvents = 'auto';
+
+//             updateButton.disabled = false;
+//             updateButton.style.backgroundColor = '#1D3C6E';
+//             updateButton.style.color = '#fff';
+//             updateButton.style.pointerEvents = 'auto';
+//         }
+
+//         if (collectionName === 'roles') {
+//             roles.disabled = false;
+//             roles.style.backgroundColor = '#1D3C6E';
+//             roles.style.color = '#fff';
+//             roles.style.pointerEvents = 'auto';
+//         }
+
+//         if (collectionName === 'rules') {
+//             rules.disabled = false;
+//             rules.style.backgroundColor = '#1D3C6E';
+//             rules.style.color = '#fff';
+//             rules.style.pointerEvents = 'auto';
+//         }
+
+//         // Enable all buttons if the collection name is new or unknown
+//         if (!['value-set', 'roles', 'rules'].includes(collectionName)) {
+//             [truncateInsertButton, updateButton, roles, rules].forEach(button => {
+//                 button.disabled = false;
+//                 button.style.backgroundColor = '#1D3C6E';
+//                 button.style.color = '#fff';
+//                 button.style.pointerEvents = 'auto';
+//             });
+//         }
+//     }
+
+//     // Enable execute button based on your own logic
+//     enableExecuteButton();
+// })
+// function handleFileChange(event) {
+//   const fileInput = event.target;
+//   const fileName = fileInput.files.length > 0 ? fileInput.files[0].name : "No file chosen";
+//   const fileNameElement = document.getElementById('file-name');
+  
+//   fileNameElement.textContent = fileName;
+  
+// }
+
+
+document.getElementById('file').addEventListener('change', function (event) {
+    const fileInput = event.target;
+    const executeButton = document.getElementById('execute');
+
+    if (fileInput.files.length > 0) {
+        const fileName = fileInput.files[0].name;
+        document.getElementById('file-name').textContent = fileName;
+
+        // Enable the Execute button
+        executeButton.disabled = false;
+        executeButton.style.backgroundColor = '#1D3C6E';
+        executeButton.style.color = '#fff';
+        executeButton.style.pointerEvents = 'auto';
+
+        // Enable the Rules button
+        rules.disabled = false;
+        rules.style.backgroundColor = '#1D3C6E';
+        rules.style.color = '#fff';
+        rules.style.pointerEvents = 'auto';
+    } else {
+        document.getElementById('file-name').textContent = 'No file chosen';
+
+        // Optionally, disable the Execute button if no file is selected
+        executeButton.disabled = true;
+        executeButton.style.backgroundColor = '#e9ecef';
+        executeButton.style.color = '#6c757d';
+        executeButton.style.pointerEvents = 'none';
+
+        // disable the Rules button
+        rules.disabled = true;
+        rules.style.backgroundColor = '#e9ecef';
+        rules.style.color = '#6c757d';
+        rules.style.pointerEvents = 'none';
+    }
+});
+
+
+
+
+const orgCodeSelect = document.getElementById("org-code");
+const truncateBtn = document.getElementById("truncate-insert");
+
+
+    orgCodeSelect.addEventListener("change", function() {
+        if (orgCodeSelect.value === "ALL") {
+            truncateBtn.disabled = true;
+            truncateBtn.style.backgroundColor = '#e9ecef';
+            truncateBtn.style.color = '#6c757d';
+            truncateBtn.style.pointerEvents = 'none';
+           
+        } else {
+            truncateBtn.disabled = false;
+            
+        }
+    });
+
+
+function goBackToReports() {
+    window.location.href = '/#reportButtons';  // Redirect to index.html with anchor
+  }
+
+    </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        
+</body>
+</html>

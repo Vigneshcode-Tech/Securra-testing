@@ -1,0 +1,3720 @@
+{
+  "asserterId": "67497a14e01a18311899c42e",
+  "organizationName": "Securra",
+  "facilityName": "Securra",
+  "deviceData": [
+    {
+      "deviceId": "67850c8d9483caf5d77d01f1",
+      "deviceName": "A&D_UA-651BLE-BP-A&D_UA-651BLE-BP-A&D_UA-651BLE-BP}",
+      "serialNumber": "123456789"
+    },
+    {
+      "deviceId": "67850c649483caf5d77d01e4",
+      "deviceName": "A&D-UC-200BLE-PULSE-A&D-UC-200BLE-PULSE-A&D-UC-200BLE-PULSE}",
+      "serialNumber": "123456789"
+    },
+    {
+      "deviceId": "67850be89483caf5d77d01ca",
+      "deviceName": "A&D_UC-356BLE-Weigh Machine White-UC-356BLE-UC-356BLE}",
+      "serialNumber": "123456789"
+    },
+    {
+      "deviceId": "67850c2c9483caf5d77d01d7",
+      "deviceName": "A&D_UC-352BLE-WM-Block-UC-352BLE-WM-Block-A&D_UC-352BLE-WM-Block}",
+      "serialNumber": "123456789"
+    },
+    {
+      "deviceId": "67e3e39a8e3e8b02a3f2f225",
+      "deviceName": "A&D_UC-352BLE-Weight White-A&D_UC-UC-352BLE}",
+      "serialNumber": "123456789"
+    }
+  ],
+  "carePlanDetails": [
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Error progrsm",
+      "carePlanId": "67baae7959f3f19344610076",
+      "taskStatus": [
+        {
+          "status": "Ready to Onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "program",
+      "carePlanId": "67bab1fc59f3f193446101c7",
+      "taskStatus": [
+        {
+          "status": "Ready to Onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "cra test",
+      "carePlanId": "67bab7b259f3f193446104ef",
+      "taskStatus": [
+        {
+          "status": "Onboarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "Onboarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "Ready to Onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "Onboarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "cra II",
+      "carePlanId": "67babe9a59f3f1934461097b",
+      "taskStatus": [
+        {
+          "status": "Ready to Onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CRA23",
+      "carePlanId": "67bac67259f3f19344610c49",
+      "taskStatus": [
+        {
+          "status": "Ready to Onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Device mgmt",
+      "carePlanId": "67baea1d59f3f19344610dea",
+      "taskStatus": [
+        {
+          "status": "Ready to Onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment test",
+      "carePlanId": "67bdd4c759f3f19344615291",
+      "taskStatus": [
+        {
+          "status": "Ready to Onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Care Program Assessment one",
+      "carePlanId": "67bde6e659f3f1934461538b",
+      "taskStatus": [
+        {
+          "status": "completed",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "1",
+      "carePlanId": "67bdec7559f3f19344615704",
+      "taskStatus": [
+        {
+          "status": "ready-to-onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Care Program Assessment 1",
+      "carePlanId": "67be6d711487b1102722d049",
+      "taskStatus": [
+        {
+          "status": "ready-to-onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CCM Device Test",
+      "carePlanId": "67c81afa3e6431723cfebede",
+      "taskStatus": [
+        {
+          "status": "ready-to-onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile assesment test",
+      "carePlanId": "67c935733e6431723cfecf48",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "All question formate",
+      "carePlanId": "67c93d323e6431723cfed49d",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Device new device",
+      "carePlanId": "67c93dc43e6431723cfed60e",
+      "taskStatus": [
+        {
+          "status": "ready-to-onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Missing question response",
+      "carePlanId": "67cad2d03e6431723cff0f3b",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "question with data parameter",
+      "carePlanId": "67ce94c4b4961af38f625117",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "new program with dataparameter types",
+      "carePlanId": "67ceb81fb4961af38f6258e5",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Device care program",
+      "carePlanId": "67ceb968b4961af38f625ad8",
+      "taskStatus": [
+        {
+          "status": "ready-to-onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile device management",
+      "carePlanId": "67ceb9c4b4961af38f625ba3",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Device testing one",
+      "carePlanId": "67cedcc4b4961af38f626401",
+      "taskStatus": [
+        {
+          "status": "ready-to-onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "New mobile ",
+      "carePlanId": "67d01661b4961af38f62774e",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "SAmple care program",
+      "carePlanId": "67d01fdcb4961af38f627a73",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "device mobile",
+      "carePlanId": "67d02290b4961af38f627c1a",
+      "taskStatus": [
+        {
+          "status": "ready-to-onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile assessment DP",
+      "carePlanId": "67d02c52b4961af38f627fe6",
+      "taskStatus": [
+        {
+          "status": "in-progress",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Missing last three Types",
+      "carePlanId": "67d15194b4961af38f62918b",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Template checking",
+      "carePlanId": "67d16112b4961af38f6298d8",
+      "taskStatus": [
+        {
+          "status": "in-progress",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Demo Program",
+      "carePlanId": "67d27121b4961af38f629fb8",
+      "taskStatus": [
+        {
+          "status": "in-progress",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Static assessment V2",
+      "carePlanId": "67d29bacb4961af38f62a56b",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Daily Assesment v2",
+      "carePlanId": "67d29c3ab4961af38f62a628",
+      "taskStatus": [
+        {
+          "status": "in-progress",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Weekly Assessment v2",
+      "carePlanId": "67d29ca5b4961af38f62a6f5",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Monthly Assessment v2",
+      "carePlanId": "67d29d15b4961af38f62a7ad",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Env Assessment v2",
+      "carePlanId": "67d29e76b4961af38f62a8a1",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Post hospital Program",
+      "carePlanId": "67d29f83b4961af38f62a99e",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "GAD7 Program",
+      "carePlanId": "67d29febb4961af38f62aa6d",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "PHQ9 program",
+      "carePlanId": "67d2a0cab4961af38f62ab0b",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": " MAHC Program",
+      "carePlanId": "67d2a11bb4961af38f62abdf",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Feedback program",
+      "carePlanId": "67d2a173b4961af38f62ac68",
+      "taskStatus": [
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "mobile ",
+      "carePlanId": "67d3b972b4961af38f62b607",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Multi Tab",
+      "carePlanId": "67d46c7fb4961af38f62cb5e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers",
+      "carePlanId": "67d48942b4961af38f62cddd",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Device integration program with sriram",
+      "carePlanId": "67d7ff2b66109bd55d40cdb5",
+      "taskStatus": [
+        {
+          "status": "ready-to-onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Device integration program",
+      "carePlanId": "67d8004866109bd55d40cefa",
+      "taskStatus": [
+        {
+          "status": "ready-to-onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Freq",
+      "carePlanId": "67da43773fdb261bd9508b09",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "New Device Care Program",
+      "carePlanId": "67da942beaccd8b19a715265",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Validation Check Program",
+      "carePlanId": "67dc26cbeaccd8b19a718093",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Validation test check",
+      "carePlanId": "67dc5d41eaccd8b19a718a31",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Validation data parameter",
+      "carePlanId": "67dd3a60eaccd8b19a71a956",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "All QT testing program",
+      "carePlanId": "67e2d842f345e9de5592cf2d",
+      "taskStatus": [
+        {
+          "status": "completed",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Daily Survey Program",
+      "carePlanId": "67e3c800f345e9de5592f063",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile Testing Care Program ",
+      "carePlanId": "67e3d0b0f345e9de5592f8a2",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "New BD device care program",
+      "carePlanId": "67e3d707f345e9de5592fcd6",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Static Store V3",
+      "carePlanId": "67e4f5f9a09e079278aee6aa",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Daily Survey v3",
+      "carePlanId": "67e4f68da09e079278aee7fe",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Weekly Survey v3",
+      "carePlanId": "67e4f6e8a09e079278aee8ea",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Env assessment v3",
+      "carePlanId": "67e4f745a09e079278aee9a2",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Post Hospital Form v3",
+      "carePlanId": "67e4f7dca09e079278aeea73",
+      "taskStatus": [
+        {
+          "status": "completed",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "GAD7 v3",
+      "carePlanId": "67e4f91fa09e079278aeeb3c",
+      "taskStatus": [
+        {
+          "status": "completed",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "PHQ9 V3",
+      "carePlanId": "67e4f981a09e079278aeeba4",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Care program mobile build ",
+      "carePlanId": "67e4fb63a09e079278aeecb6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Feedback questionnaire v3",
+      "carePlanId": "67e4fbd7a09e079278aeede6",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Symptoms Tracker v3",
+      "carePlanId": "67e4ff06a09e079278aef230",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "MAHC v3",
+      "carePlanId": "67e4ffe8a09e079278aef564",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Post Hospital Form 2 v3",
+      "carePlanId": "67e64977a09e079278af0ba4",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "All Question Mobile for Testing ",
+      "carePlanId": "67e64e2da09e079278af0dc2",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "DP Validation Program",
+      "carePlanId": "67e84298a09e079278af1b6d",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile Template Test 1041255",
+      "carePlanId": "67eb9591d92e1eba71cee28d",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "question date range program",
+      "carePlanId": "67ebdc24d92e1eba71ceeaa3",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "67ebdc70d92e1eba71ceeada",
+          "assessmentName": "date range V"
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Latest dataparameter Mobile Testing",
+      "carePlanId": "67ecd7add92e1eba71cef872",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "67ecd7c6d92e1eba71cef8a5",
+          "assessmentName": "Latest dataparameter Mobile Testing"
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Missing last three dp",
+      "carePlanId": "67ece0fbd92e1eba71cefac9",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "67ece113d92e1eba71cefafc",
+          "assessmentName": "Missing last three dp"
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Missing response type rt",
+      "carePlanId": "67ece822d92e1eba71cefd99",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "67ece8f3d92e1eba71cefe0c",
+          "assessmentName": "Missing response type rt"
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Likert Resp Type Template ",
+      "carePlanId": "67ed1be3d92e1eba71cf003b",
+      "taskStatus": [
+        {
+          "status": "completed",
+          "assessmentId": "67ed1c10d92e1eba71cf006e",
+          "assessmentName": "Likert Resp Type"
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Likert Resp Program 2",
+      "carePlanId": "67ed1e4cd92e1eba71cf01a9",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "67ed1e78d92e1eba71cf020c",
+          "assessmentName": "Likert Resp Program 2"
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "All Question Types 204454",
+      "carePlanId": "67ed1e90d92e1eba71cf0291",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Final question set with all response",
+      "carePlanId": "67ed21d2d92e1eba71cf03fa",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "67ed21f2d92e1eba71cf0452",
+          "assessmentName": "Final question set with all response"
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Validation upload",
+      "carePlanId": "67ee2f33d92e1eba71cf1a9c",
+      "taskStatus": [
+        {
+          "status": "ready-to-onboard",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Validation upload responsetype",
+      "carePlanId": "67ee3904d92e1eba71cf1c6b",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "67ee393bd92e1eba71cf1c9e",
+          "assessmentName": "Validation Upload Response Type"
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Check the Assessment Response",
+      "carePlanId": "67f1a119d92e1eba71cf5516",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Check Assessment Summary Response",
+      "carePlanId": "67f35cc6d92e1eba71cf5788",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "67f35d47d92e1eba71cf57bf",
+          "assessmentName": "Assessment Summary Response"
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Check DP Assessment Response",
+      "carePlanId": "67f36d63d92e1eba71cf5e09",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "67f36d90d92e1eba71cf5e4c",
+          "assessmentName": "Check DP Assessment Response"
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "DP Questions Care Plan",
+      "carePlanId": "67f38862d92e1eba71cf69ab",
+      "taskStatus": [
+        {
+          "status": "to-be-done",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "on-boarded",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Multiple Question Set Program",
+      "carePlanId": "67f3a56fd92e1eba71cf7646",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Question Set Testing",
+      "carePlanId": "67f3ae81d92e1eba71cf780a",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "New careprogram with template",
+      "carePlanId": "67f3b358d92e1eba71cf7ac5",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Multiple Question Sets 704546",
+      "carePlanId": "67f3c26dd92e1eba71cf7e61",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile Multiple Question Set Testing 0704615",
+      "carePlanId": "67f3c8f9d92e1eba71cf8069",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "New care program for mobile with question set AP",
+      "carePlanId": "67f3cb38d92e1eba71cf8233",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile Multiple Question Set v1",
+      "carePlanId": "67f3cc80d92e1eba71cf841c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Care Program Multiple QSet",
+      "carePlanId": "67f3d537d92e1eba71cf8630",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile 0804950",
+      "carePlanId": "67f4a484e52416bedb915182",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Question collection 2 ",
+      "carePlanId": "67f4cf7ae52416bedb91580b",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "All Question collection ",
+      "carePlanId": "67f4d078e52416bedb9158d2",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "wellness",
+      "carePlanId": "67f575f0e52416bedb9168fc",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "neurological center",
+      "carePlanId": "67f60e50e52416bedb9170af",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "UploadUpload",
+      "carePlanId": "67f667bee52416bedb9194e3",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Fitness check",
+      "carePlanId": "67f66d99e52416bedb919602",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Cancer Program",
+      "carePlanId": "67f68565e52416bedb919a97",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Program to Check",
+      "carePlanId": "67f68c4fe52416bedb919e2e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Device Care program current",
+      "carePlanId": "67f6a2a5e52416bedb91a425",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Test Riskscore",
+      "carePlanId": "67f6bb9be52416bedb91ad1a",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CRA Device Care program",
+      "carePlanId": "67f793c6e52416bedb91baff",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Final Response type collection",
+      "carePlanId": "67f7ad9fe52416bedb91ca25",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "weekly program",
+      "carePlanId": "67f7c295e52416bedb91d1ef",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Care program New Patient",
+      "carePlanId": "67f7d932e52416bedb91d398",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "strength training",
+      "carePlanId": "67f88f18e52416bedb91d95b",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Daily Survey 1104",
+      "carePlanId": "67f8b014e52416bedb91eaad",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP DP Testing 1104",
+      "carePlanId": "67f8b21be52416bedb91edce",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Dp Validation Program",
+      "carePlanId": "67f8b9d9e52416bedb91f327",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Device testing",
+      "carePlanId": "67f96542e52416bedb92146c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Device testing program",
+      "carePlanId": "67fa1025e52416bedb921b33",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Device testing program for BP",
+      "carePlanId": "67fa160ee52416bedb921fb0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "New care program for santhosh",
+      "carePlanId": "67fa1ee6e52416bedb922159",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers response type collection",
+      "carePlanId": "67fcdc4ee52416bedb923703",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers response type collection 2",
+      "carePlanId": "67fce3a4e52416bedb92392c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers response type collection 12",
+      "carePlanId": "67fce72ae52416bedb923bcc",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers check1",
+      "carePlanId": "67fdf950e52416bedb924a18",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers check 2",
+      "carePlanId": "6800a3893ba31994860665a1",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile testing 19Apr1004",
+      "carePlanId": "68032873cc4ce73ec3da9ed7",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile testing CP",
+      "carePlanId": "680332d1cc4ce73ec3daa08d",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile Testing Temp",
+      "carePlanId": "6805bfcacc4ce73ec3daacce",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers in Data parameter",
+      "carePlanId": "6807758ccc4ce73ec3dae754",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers with dp types ",
+      "carePlanId": "680781a6cc4ce73ec3daead6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile Testing History",
+      "carePlanId": "68078c8acc4ce73ec3daeefe",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "qualifiers with dptypes123",
+      "carePlanId": "68078de6cc4ce73ec3daf021",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiersfordp",
+      "carePlanId": "680794ddcc4ce73ec3daf312",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Preprod program",
+      "carePlanId": "6808c57dcc4ce73ec3db163b",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Preprod program new",
+      "carePlanId": "6808c702cc4ce73ec3db17bb",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile Test 23 Apr 451",
+      "carePlanId": "6808cde2cc4ce73ec3db1917",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile test 23 540",
+      "carePlanId": "6808d8c4cc4ce73ec3db1c1e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "program name ",
+      "carePlanId": "6809100bcc4ce73ec3db25b3",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "New program",
+      "carePlanId": "6809d2dfcc4ce73ec3db3b9b",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "program nameee",
+      "carePlanId": "6809e9c6cc4ce73ec3db4807",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP QS Test 24Apr",
+      "carePlanId": "6809f841cc4ce73ec3db519d",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP QS Test 24Apr 01",
+      "carePlanId": "6809fb9ecc4ce73ec3db525a",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Program name",
+      "carePlanId": "680f63e6190b42ba5fa89551",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Upload check",
+      "carePlanId": "680f88bc190b42ba5fa89b26",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "check phone no",
+      "carePlanId": "68109e2123a433270244e536",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers DP test",
+      "carePlanId": "6811f6c123a433270244ff64",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "3May Test FT",
+      "carePlanId": "6815bb0223a4332702452860",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers check new",
+      "carePlanId": "68185f9223a4332702454894",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "upload check 123",
+      "carePlanId": "681884c423a43327024553dd",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Upload Check Four",
+      "carePlanId": "68188d2123a43327024555a9",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Sanity check",
+      "carePlanId": "68189f0e23a4332702455adc",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "upload check first",
+      "carePlanId": "6818a61e23a4332702455fc6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "test new care program",
+      "carePlanId": "6818c8ae23a4332702456b5e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Submit Testing",
+      "carePlanId": "6818d8f423a4332702456f9b",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment Date Check",
+      "carePlanId": "6819b3c523a4332702457fa6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "multiple data parameterb23",
+      "carePlanId": "6819d4ee23a43327024588f3",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Upload23",
+      "carePlanId": "681af96fe3caad7f9cfe27a6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Multiple Question Set Care Program",
+      "carePlanId": "681b293ce3caad7f9cfe2ff7",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Multiple Question Set Care Program V2",
+      "carePlanId": "681b51b9e3caad7f9cfe439f",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Multiple Tab Template Program ",
+      "carePlanId": "681c5fe3e3caad7f9cfe76b3",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "1Tab 1Section Multiple Question Set",
+      "carePlanId": "681ca93ae3caad7f9cfe8779",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP Test 905151",
+      "carePlanId": "681dbb1ce3caad7f9cfe9aef",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP 905 329",
+      "carePlanId": "681dd22ae3caad7f9cfea0c7",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP Test 905337",
+      "carePlanId": "681dd3fee3caad7f9cfea379",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP Test 905341",
+      "carePlanId": "681dd54be3caad7f9cfea523",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP Test 905345",
+      "carePlanId": "681dd5eae3caad7f9cfea63e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Symptoms CP ",
+      "carePlanId": "6821c1c1e3caad7f9cfec746",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Symptoms CP 1205",
+      "carePlanId": "6821c34ce3caad7f9cfec8e7",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "test ",
+      "carePlanId": "68230d1ba1a35ec1e4c79765",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "demo check",
+      "carePlanId": "682316cfa1a35ec1e4c79d4e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "upload123",
+      "carePlanId": "682318d9a1a35ec1e4c79fad",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "upload1",
+      "carePlanId": "682319b7a1a35ec1e4c7a062",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Demo check1",
+      "carePlanId": "682327b2a1a35ec1e4c7a558",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "demoCheck",
+      "carePlanId": "682328f8a1a35ec1e4c7a7a9",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Check12",
+      "carePlanId": "6823297fa1a35ec1e4c7a8d3",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "DemoCHHH",
+      "carePlanId": "68232c91a1a35ec1e4c7abce",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "chh",
+      "carePlanId": "68232e17a1a35ec1e4c7ad13",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Demo check ",
+      "carePlanId": "68233164a1a35ec1e4c7af1e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Slider check",
+      "carePlanId": "68234e5aa1a35ec1e4c7b7ed",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "careprogram without validation",
+      "carePlanId": "68237f60a1a35ec1e4c7bf94",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile Test Demo Check",
+      "carePlanId": "68243dfda1a35ec1e4c7c578",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile CP 14May 1231",
+      "carePlanId": "68243fdea1a35ec1e4c7c65f",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Mobile CP 14May 300",
+      "carePlanId": "682462b8a1a35ec1e4c7d3be",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "bug test",
+      "carePlanId": "68246578a1a35ec1e4c7d859",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Bug check",
+      "carePlanId": "68248d86a1a35ec1e4c7e69a",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "test time formats",
+      "carePlanId": "68259b6aa1a35ec1e4c7f87c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "slider check",
+      "carePlanId": "6825e609a1a35ec1e4c811c0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP Frequency One Check",
+      "carePlanId": "6825ed3aa1a35ec1e4c8139f",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP 15May 735",
+      "carePlanId": "6825f4e5a1a35ec1e4c81676",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP 15May 738",
+      "carePlanId": "6825f57da1a35ec1e4c8175d",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "template check",
+      "carePlanId": "68261d78a1a35ec1e4c81979",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "template check1",
+      "carePlanId": "68261f8da1a35ec1e4c81a55",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Survey test",
+      "carePlanId": "6827008ea1a35ec1e4c82c4c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "new test",
+      "carePlanId": "68271676a1a35ec1e4c836f6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "DEMOCHECK",
+      "carePlanId": "682724bfa1a35ec1e4c8429e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "new test 1",
+      "carePlanId": "68273e16a1a35ec1e4c84956",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "upload test",
+      "carePlanId": "68273ebca1a35ec1e4c84a55",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "upload check",
+      "carePlanId": "682827eea1a35ec1e4c851e0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "uploadcheck",
+      "carePlanId": "6828333aa1a35ec1e4c853e9",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "upload check2",
+      "carePlanId": "6828534ca1a35ec1e4c8567e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Uploadche",
+      "carePlanId": "682859f0a1a35ec1e4c857ea",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "demoUpload",
+      "carePlanId": "68285a6ca1a35ec1e4c858ac",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "3 QS Test V1 Program",
+      "carePlanId": "68286e7aa1a35ec1e4c86053",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "demopload",
+      "carePlanId": "682874f0a1a35ec1e4c863ae",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Upload0",
+      "carePlanId": "68287b40a1a35ec1e4c866a0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "uploaddemo",
+      "carePlanId": "68288e79a1a35ec1e4c86e67",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "3 QS Test V2",
+      "carePlanId": "6828906ba1a35ec1e4c86ef0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "demooo",
+      "carePlanId": "682893f1a1a35ec1e4c87097",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP Multiple QS Form",
+      "carePlanId": "6829c672a1a35ec1e4c87d72",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment May19",
+      "carePlanId": "682af1c48fb2de9ec4c1b43b",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "3 QS Test V2 Program",
+      "carePlanId": "682b06d18fb2de9ec4c1c65d",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Upload chh",
+      "carePlanId": "682b0d458fb2de9ec4c1cee6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "3 QS Test V3 Program",
+      "carePlanId": "682b11388fb2de9ec4c1d291",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Upload4",
+      "carePlanId": "682b220f8fb2de9ec4c1e019",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment May19 new",
+      "carePlanId": "682b22228fb2de9ec4c1e05f",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP Slider Check ",
+      "carePlanId": "682b39ff8fb2de9ec4c1ebd6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "UploadQAset19th",
+      "carePlanId": "682b3a038fb2de9ec4c1ebf2",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "UploadTemplatecheck19thmay",
+      "carePlanId": "682b3b658fb2de9ec4c1ed94",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Single Question Set 19th May",
+      "carePlanId": "682b52a58fb2de9ec4c1f4a6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "1 QS Test V1 Program",
+      "carePlanId": "682b5a718fb2de9ec4c1f9e3",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Question Set Program V1",
+      "carePlanId": "682b5ce68fb2de9ec4c1fd97",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Multiple QAset",
+      "carePlanId": "682c22908fb2de9ec4c2121e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Multiple QAset 2",
+      "carePlanId": "682c24878fb2de9ec4c21439",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Slider check1",
+      "carePlanId": "682c257e8fb2de9ec4c2158f",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Slider Check may20",
+      "carePlanId": "682c2b2f8fb2de9ec4c21b9c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "slider check 2",
+      "carePlanId": "682c2f5c8fb2de9ec4c21d92",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP test Mobile 20May",
+      "carePlanId": "682c32528fb2de9ec4c22078",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Upload check 44",
+      "carePlanId": "682c42f88fb2de9ec4c22813",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "New Assessment 20th may",
+      "carePlanId": "682c47ec8fb2de9ec4c22e3f",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        },
+        {
+          "status": "initiated",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "New 1 Assessment 20th may",
+      "carePlanId": "682c489a8fb2de9ec4c22fe8",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "New 2 Assessment 20th may",
+      "carePlanId": "682c507a8fb2de9ec4c233e0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP 20May 338",
+      "carePlanId": "682c54a08fb2de9ec4c2367d",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment May20 new",
+      "carePlanId": "682c54a48fb2de9ec4c236a7",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "CP Form 20 May Mobile",
+      "carePlanId": "682c55b28fb2de9ec4c238a0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment May20 new1",
+      "carePlanId": "682c57e68fb2de9ec4c239de",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment check may20",
+      "carePlanId": "682c70af8fb2de9ec4c24201",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "All format questions",
+      "carePlanId": "682c80fa8fb2de9ec4c2444c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Number Rating Program",
+      "carePlanId": "682c82368fb2de9ec4c2452e",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment test new1",
+      "carePlanId": "682c86e18fb2de9ec4c248a0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "final upload ",
+      "carePlanId": "682c87a68fb2de9ec4c24a16",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Multiple QA Set",
+      "carePlanId": "682c997e8fb2de9ec4c250f6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Single QA set",
+      "carePlanId": "682c9a918fb2de9ec4c251e1",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Number Rating Test",
+      "carePlanId": "682c9ebd8fb2de9ec4c25650",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "SliderChecking",
+      "carePlanId": "682c9ec08fb2de9ec4c25665",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Check Assessment may20",
+      "carePlanId": "682cad418fb2de9ec4c25a8c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "upload test may20",
+      "carePlanId": "682caec08fb2de9ec4c25c75",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Rating Test QS May21",
+      "carePlanId": "682d7a3d8fb2de9ec4c2723b",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers 43817",
+      "carePlanId": "682d82528fb2de9ec4c277b0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifies for 43841",
+      "carePlanId": "682d90368fb2de9ec4c27d59",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Number Rating Program V1",
+      "carePlanId": "682d9fd68fb2de9ec4c28312",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Qualifiers for 43837",
+      "carePlanId": "682df8028fb2de9ec4c289ba",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "43837 Qualifier",
+      "carePlanId": "682e0ebf8fb2de9ec4c28ae7",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Response type checking",
+      "carePlanId": "682ed2798fb2de9ec4c298a0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "UPload checking",
+      "carePlanId": "682ed8048fb2de9ec4c29ba1",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Number Rating V1 Program",
+      "carePlanId": "682eec2c8fb2de9ec4c2a093",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Number Rating V2 Program",
+      "carePlanId": "682f096b8fb2de9ec4c2aa5c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Upload09",
+      "carePlanId": "6834600a8fb2de9ec4c2ed74",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "DP Number Test May27",
+      "carePlanId": "683560ff90ba82b5a9289d8f",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Likert Scale Test",
+      "carePlanId": "6835625590ba82b5a9289ed0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Number and upload check",
+      "carePlanId": "68356adf90ba82b5a928a401",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Negative Number Test",
+      "carePlanId": "68356ced90ba82b5a928a518",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Frequency",
+      "carePlanId": "683599c190ba82b5a928b0e0",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "likert scale test v2",
+      "carePlanId": "6835bd8f90ba82b5a928c312",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "DP test prefilled",
+      "carePlanId": "6835e226d4e9b49be2a8a270",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Task Status Test",
+      "carePlanId": "6836d61ad4e9b49be2a8b035",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Text check Assessment",
+      "carePlanId": "6836d88dd4e9b49be2a8b16a",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Edit Complete Assessment V1",
+      "carePlanId": "6836f8e2d4e9b49be2a8b86c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "upload qns",
+      "carePlanId": "6836f92cd4e9b49be2a8b8af",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Test iOS",
+      "carePlanId": "68370675d4e9b49be2a8bcd6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "qns1",
+      "carePlanId": "68370867d4e9b49be2a8be83",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Test iOS1",
+      "carePlanId": "6837088cd4e9b49be2a8bec2",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Test iOS2",
+      "carePlanId": "68370b3bd4e9b49be2a8c037",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Test iOS3",
+      "carePlanId": "68370c66d4e9b49be2a8c114",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Test iOS4",
+      "carePlanId": "68370f61d4e9b49be2a8c1ea",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Test iOS5",
+      "carePlanId": "683710c5d4e9b49be2a8c2f2",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "TEST",
+      "carePlanId": "68372d6ad4e9b49be2a8c3d9",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Test Edit Program V1",
+      "carePlanId": "68373a0ad4e9b49be2a8c475",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "43964 check",
+      "carePlanId": "68374d27d4e9b49be2a8c735",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment Test May29",
+      "carePlanId": "6837f862d4e9b49be2a8cba6",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment Text Test May29",
+      "carePlanId": "68380975d4e9b49be2a8d290",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Edit Assessment Test V2",
+      "carePlanId": "68382ed6d4e9b49be2a8d7c4",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Edit Assessment Test V3",
+      "carePlanId": "68384172d4e9b49be2a8da4c",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment text check",
+      "carePlanId": "6838542bd4e9b49be2a8debb",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Assessment Test text",
+      "carePlanId": "683856f5d4e9b49be2a8e108",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Multiple QS Assessment V1",
+      "carePlanId": "68395e60d4e9b49be2a8e500",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "more than 10 Question Test",
+      "carePlanId": "6839caacd4e9b49be2a8f586",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    },
+    {
+      "carePlanGroup": "Default Care Plan Group",
+      "carePlanName": "Role Test Qualifier",
+      "carePlanId": "683d450cd4e9b49be2a8ff18",
+      "taskStatus": [
+        {
+          "status": "failed",
+          "assessmentId": "",
+          "assessmentName": ""
+        }
+      ]
+    }
+  ]
+}

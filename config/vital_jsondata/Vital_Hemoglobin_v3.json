@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "orgCode": "SECORG_140",
+    "facCode": "",
+    "lang": "en",
+    "serialNo": 611
+  },
+  "level": "L2L3",
+  "seqno": 20,
+  "ctgName": "Lab Data",
+  "ctgDispName": "Lab Data",
+  "ctgLevel": "L1",
+  "ctgSeqno": 20,
+  "ctgCode": "SCL120",
+  "ctgNameKey": "Lab Data",
+  "dpName": "Hemoglobin",
+  "dpDispName": "Hemoglobin",
+  "dpLevel": "L2",
+  "dpSeqno": 20,
+  "dpCode": "SCL120L232",
+  "dpNameKey": "labdata.hemoglobin",
+  "dpType": "Number",
+  "dpDispType": "Number",
+  "responseSettings": {
+    "rangeFrom": 0,
+    "rangeTo": 100
+  },
+  "valueSet": "",
+  "audit": {
+    "vId": "0.327",
+    "crAt": "2025-07-31T14:03:13.322477",
+    "crBy": {
+      "id": "001",
+      "name": "SecurraDM",
+      "role": "Datamodeler"
+    },
+    "updAt": "2025-07-31T14:03:13.322477",
+    "updBy": {
+      "id": "002",
+      "name": "SecurraDM",
+      "role": "Datamodeler"
+    },
+    "srcId": "Internal",
+    "src": "Internal",
+    "isActive": true
+  },
+  "referanceRange": [
+    {
+      "low": 0,
+      "high": 5.3,
+      "criticality": "Normal",
+      "severity": "Normal"
+    },
+    {
+      "low": 5.4,
+      "high": 5.6,
+      "criticality": "Abnormal",
+      "severity": "Low"
+    },
+    {
+      "low": 5.7,
+      "high": 6.4,
+      "criticality": "Moderate",
+      "severity": "Moderate"
+    },
+    {
+      "low": 6.5,
+      "high": 9999,
+      "criticality": "Critical",
+      "severity": "High"
+    }
+  ]
+}

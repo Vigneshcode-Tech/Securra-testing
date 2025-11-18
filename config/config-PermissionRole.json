@@ -1,0 +1,4320 @@
+{
+    "permission":[
+        {
+            "role": {
+                "name": "OrganizationAdmin",
+                "display": "Organization Admin"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "User",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "FacilityAdmin",
+                "display": "Facility Admin"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "User",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                }, 
+                  {
+          "feature": "Communication",
+          "isCreate": true,
+          "isRead": true,
+          "isWrite": true,
+          "isDelete": true
+        },
+        {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "Nurse",
+                "display": "Nurse"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "User",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+          "feature": "Communication",
+          "isCreate": true,
+          "isRead": true,
+          "isWrite": true,
+          "isDelete": true
+        },
+        {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "MedicalAssistant",
+                "display": "Medical Assistant"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "User",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "GeneralPractitioner",
+                "display": "General Practitioner"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "User",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "PhysicianAssistant",
+                "display": "Physician Assistant"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "User",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "NursePractitioner ",
+                "display": "Nurse Practitioner"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "User",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "Receptionist ",
+                "display": "Receptionist"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "User",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "Patient ",
+                "display": "Patient"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "User",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Goals",
+                    "isCreate": true,
+                     "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                        
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "ClinicalManager ",
+                "display": "Clinical Manager"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "User",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "HealthCoach ",
+                "display": "Health Coach"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "User",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "Coordinator",
+                "display": "Coordinator"
+            },
+            "modulePermission": [
+                {
+                    "feature": "Facility",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Value-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Question-Set",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Template-Response",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "User",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Patient",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Organization",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Practitioner",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Permission",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Roles",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Sequencer",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "File-Upload",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CareTeam",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Group",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlan",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "CarePlanGroup",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareService",
+                    "isCreate": false,
+                    "isRead": false,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "HealthCareServiceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Device",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Diagnosis",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Medication",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "WorkList",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "TaskStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "ConsentStatus",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Consent",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "Observation",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceData",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Device-Upload",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "DeviceAssociation",
+                    "isCreate": false,
+                    "isRead": true,
+                    "isWrite": false,
+                    "isDelete": false
+                },
+                {
+                    "feature": "RiskAssessment",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "Licensed Practical Nurse",
+                "display": "Licensed Practical Nurse"
+            },
+            "modulePermission" : [
+                {
+                    "feature" : "Facility",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Value-Set",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Question",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Question-Set",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Template",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Template-Response",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "User",
+                    "isCreate" : false,
+                    "isRead" : false,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Patient",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Organization",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Practitioner",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Permission",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Roles",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Sequencer",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "File-Upload",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "CareTeam",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Group",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "CarePlan",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "CarePlanGroup",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "HealthCareService",
+                    "isCreate" : false,
+                    "isRead" : false,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "HealthCareServiceAssociation",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Device",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Diagnosis",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Medication",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "WorkList",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "TaskStatus",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "ConsentStatus",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Consent",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Observation",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "DeviceData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Device-Upload",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "DeviceAssociation",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "RiskAssessment",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "Registered Nurse",
+                "display": "Registered Nurse"
+            },
+            "modulePermission" : [
+                {
+                    "feature" : "Facility",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Value-Set",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Question",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Question-Set",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Template",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Template-Response",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "User",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Patient",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Organization",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Practitioner",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Permission",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Roles",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Sequencer",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "File-Upload",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "CareTeam",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Group",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "CarePlan",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "CarePlanGroup",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "HealthCareService",
+                    "isCreate" : false,
+                    "isRead" : false,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "HealthCareServiceAssociation",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Device",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Diagnosis",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Medication",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "WorkList",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "TaskStatus",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "ConsentStatus",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Consent",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Observation",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "DeviceData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Device-Upload",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "DeviceAssociation",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "RiskAssessment",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+            ]
+        },
+        {
+            "role": {
+                "name": "Physician",
+                "display": "Physician"
+            },
+            "modulePermission" : [
+                {
+                    "feature" : "Facility",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Value-Set",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Question",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Question-Set",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Template",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Template-Response",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "User",
+                    "isCreate" : false,
+                    "isRead" : false,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Patient",
+                    "isCreate" : false,
+                    "isRead" : false,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Organization",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Practitioner",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Permission",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Roles",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Sequencer",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "File-Upload",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "CareTeam",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Group",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "CarePlan",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "CarePlanGroup",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "HealthCareService",
+                    "isCreate" : false,
+                    "isRead" : false,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "HealthCareServiceAssociation",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Device",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Diagnosis",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Medication",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "WorkList",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "TaskStatus",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "ConsentStatus",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Consent",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "Observation",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "DeviceData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Device-Upload",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "DeviceAssociation",
+                    "isCreate" : false,
+                    "isRead" : true,
+                    "isWrite" : false,
+                    "isDelete" : false
+                },
+                {
+                    "feature" : "RiskAssessment",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "AllergyIntolerance",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Symptoms",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature": "TimeTracker",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature": "Notes",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                 {
+                    "feature": "Communication",
+                    "isCreate": true,
+                    "isRead": true,
+                    "isWrite": true,
+                    "isDelete": true
+                },
+                {
+                    "feature" : "RiskData",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "FaceScan",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                },
+                {
+                    "feature" : "Encounter",
+                    "isCreate" : true,
+                    "isRead" : true,
+                    "isWrite" : true,
+                    "isDelete" : true
+                }
+                
+            ]
+        }
+        
+    ]
+}

@@ -1,0 +1,4 @@
+In organizationAdmin feature:CarePlane,CareTeam,WorkList,Device,Group,Question,Question-set,
+Tempalate,Tempalate-Response- isRead changed to False 16-06-2025
+
+For Patient feature:File-Upload isDelete is changed to True 23-06-2025

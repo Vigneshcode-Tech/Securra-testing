@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "orgCode": "SECORG_140",
+    "facCode": "",
+    "lang": "en",
+    "serialNo": 30
+  },
+  "level": "L2L3",
+  "seqno": 10,
+  "ctgName": "Person",
+  "ctgDispName": "Person",
+  "ctgLevel": "L1",
+  "ctgSeqno": 10,
+  "ctgCode": "SCL110",
+  "ctgNameKey": "Person",
+  "dpName": "RespiratoryRate",
+  "dpDispName": "RespiratoryRate",
+  "dpLevel": "L2",
+  "dpSeqno": 10,
+  "dpCode": "SCL110L230",
+  "dpNameKey": "person.respiratoryrate",
+  "dpType": "Number",
+  "dpDispType": "Number",
+  "responseSettings": {
+    "rangeFrom": 12,
+    "rangeTo": 20
+  },
+  "valueSet": "",
+  "referanceRange" : [
+        {
+            "low" : 12,
+            "high" : 20,
+            "criticality" : "Normal",
+            "severity" : "Normal"
+        },
+        {
+            "low" : 0,
+            "high" : 11,
+            "criticality" : "Abnormal",
+            "severity" : "Low"
+        },
+        {
+            "low" : 21,
+            "high" : 9999,
+            "criticality" : "Abnormal",
+            "severity" : "High"
+        }
+    ],
+  "audit": {
+    "vId": "0.327",
+    "crAt": "2025-07-31T14:03:13.322477",
+    "crBy": {
+      "id": "001",
+      "name": "SecurraDM",
+      "role": "Datamodeler"
+    },
+    "updAt": "2025-07-31T14:03:13.322477",
+    "updBy": {
+      "id": "002",
+      "name": "SecurraDM",
+      "role": "Datamodeler"
+    },
+    "srcId": "Internal",
+    "src": "Internal",
+    "isActive": true
+  }
+}

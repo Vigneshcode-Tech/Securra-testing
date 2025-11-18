@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "orgCode": "SECORG_140",
+    "facCode": "",
+    "lang": "en",
+    "serialNo": 795
+  },
+  "level": "L2L3",
+  "seqno": 30,
+  "ctgName": "Assessments",
+  "ctgDispName": "Assessments",
+  "ctgLevel": "L1",
+  "ctgSeqno": 30,
+  "ctgCode": "SCL130",
+  "ctgNameKey": "Assessments",
+  "dpName": "Oxygen Saturation (SaO2)",
+  "dpDispName": "Oxygen Saturation (SaO2)",
+  "dpLevel": "L2",
+  "dpSeqno": 30,
+  "dpCode": "SCL130L2357",
+  "dpNameKey": "assessments.oxygensaturation(sao2)",
+  "dpType": "Number",
+  "dpDispType": "Number",
+  "responseSettings": {
+    "rangeFrom": 0,
+    "rangeTo": 100
+  },
+  "valueSet": "",
+  "audit": {
+    "vId": "0.327",
+    "crAt": "2025-07-31T14:03:13.322477",
+    "crBy": {
+      "id": "001",
+      "name": "SecurraDM",
+      "role": "Datamodeler"
+    },
+    "updAt": "2025-07-31T14:03:13.322477",
+    "updBy": {
+      "id": "002",
+      "name": "SecurraDM",
+      "role": "Datamodeler"
+    },
+    "srcId": "Internal",
+    "src": "Internal",
+    "isActive": true
+  },
+  "referanceRange": [
+    {
+      "low": 95,
+      "high": 100,
+      "criticality": "Normal",
+      "severity": "Normal"
+    },
+    {
+      "low": 0,
+      "high": 89,
+      "criticality": "Abnormal",
+      "severity": "Low"
+    },
+    {
+      "low": 90,
+      "high": 94,
+      "criticality": "Moderate",
+      "severity": "Moderate"
+    }
+  ]
+}
